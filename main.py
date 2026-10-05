@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from typing import List
-from services.sheets_service import get_wishlist, spin_gift, reserve_gifts, get_goals, contribute_to_goal
+from sheets_service import get_wishlist, spin_gift, reserve_gifts, get_goals, contribute_to_goal
 import os
 import sys
 
