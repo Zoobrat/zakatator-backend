@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 # Монтируем статику (фронтенд)
-app.mount("/static", StaticFiles(directory="../frontend"), name="static")
+
 
 @app.get("/")
 def read_root():
